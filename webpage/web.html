@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main-body">
+        <nav id="navbar">
+    		<header>Menu Tài Liệu</header>
+    		<a href="#Intro" class="nav-link">C++ là gì?</a>
+    		<a href="#Object" class="nav-link">Đối tượng và Lớp</a>
+    		<a href="#Inheritance" class="nav-link">Kế thừa</a>
+    		<a href="#Polymorphism" class="nav-link">Đa hình</a>
+    		<a href="#Abstraction" class="nav-link">Tính trừu tượng</a>
+    		<a href="#Encapsulation" class="nav-link">Đóng gói</a>
+    		<img src="image.png" alt="Image" class="nav-image">
+	</nav>
+
+        <main id="main-doc">
+            <section class="main-section" id="Intro">
+                <header>
+                    C++ là gì?
+                </header>
+                <p>
+                    C++ là một ngôn ngữ lập trình đa mục đích và hiện nay được sử dụng rộng rãi trong lập trình thi đấu. 
+                    Nó có các tính năng lập trình mệnh lệnh, hướng đối tượng và lập trình tổng quát. 
+                    C++ chạy trên nhiều nền tảng như Windows, Linux, Unix, Mac, v.v.  
+                    C++ là một ngôn ngữ mạnh mẽ và hiệu quả, được ứng dụng rộng rãi trong các nền tảng GUI, đồ họa 3D, và mô phỏng thời gian thực. 
+                    Nhờ có thư viện hàm phong phú, việc làm việc với C++ trở nên đơn giản và tiện lợi hơn so với C. 
+                    Là ngôn ngữ lập trình hướng đối tượng như Java, C++ cung cấp hỗ trợ cho kế thừa, đa hình, đóng gói, v.v. 
+                    Không giống như C, C++ cho phép xử lý ngoại lệ và nạp chồng hàm.
+                </p>
+                <p>Chương trình “Hello World” là bước đầu tiên để học bất kỳ ngôn ngữ lập trình nào và cũng là một trong những chương trình đơn giản nhất. 
+                    Tất cả những gì bạn cần làm là hiển thị thông điệp “Hello World” trên màn hình.
+                    <br><br>Hãy cùng xem chương trình này:
+                </p>
+                <code>
+                    #include<iostream>  
+                    <br>
+                    using namespace std;  
+                    <br>
+                    int main() 
+                    <br>
+                        { 
+                            <br>
+                            cout<<"Hello World"; 
+                            <br>
+                            return 0; 
+                            <br>
+                        } 
+                </code>
+                <br>
+                <p>C++ là một ngôn ngữ lập trình hướng đối tượng.
+                    <br>Các trụ cột chính của lập trình hướng đối tượng bao gồm:
+                </p>
+                <ul>
+                    <li>Đối tượng và Lớp</li>
+                    <li>Kế thừa</li>
+                    <li>Đa hình</li>
+                    <li>Tính trừu tượng</li>
+                    <li>Đóng gói</li>
+                </ul>
+            </section>
+
+            <section class="main-section" id="Object">
+                <header>
+                    Đối tượng và Lớp
+                </header>
+                <p>
+                    Lập trình hướng đối tượng – Như tên gọi, sử dụng các đối tượng trong lập trình. 
+                    Lập trình hướng đối tượng nhằm triển khai các thực thể trong thế giới thực như kế thừa, che giấu, đa hình, v.v. vào lập trình. 
+                    Mục đích chính của OOP là kết hợp dữ liệu và các hàm hoạt động trên chúng để không phần nào khác của mã có thể truy cập dữ liệu này ngoài các hàm đó.
+                </p>
+                <p><b>Đối tượng:</b> Là một thực thể có thể nhận diện với các đặc điểm và hành vi riêng. 
+                    Đối tượng là một phiên bản của một Lớp. Khi một lớp được định nghĩa, không có bộ nhớ nào được cấp phát, nhưng khi nó được khởi tạo (tức là một đối tượng được tạo), bộ nhớ được cấp phát.
+                    <br>
+                    <b>Lớp:</b> Lớp là khối xây dựng của C++ dẫn đến lập trình hướng đối tượng. 
+                    Nó là một kiểu dữ liệu do người dùng định nghĩa, chứa các thành viên dữ liệu và hàm thành viên, có thể được truy cập và sử dụng bằng cách tạo một phiên bản của lớp đó. 
+                    Lớp giống như một bản thiết kế cho đối tượng.
+                </p>
+            </section>
+
+            <section class="main-section" id="Inheritance">
+                <header>
+                    Kế thừa
+                </header>
+                <p>
+                    Khả năng của một lớp thừa kế các thuộc tính và đặc điểm từ một lớp khác được gọi là Kế thừa. 
+                    Đây là một trong những tính năng quan trọng nhất của lập trình hướng đối tượng.
+                    <br>
+                    <b>Các kiểu kế thừa trong C++:</b>
+                    <ul>
+                        <li><b>Kế thừa đơn:</b> Một lớp chỉ thừa kế từ một lớp cơ sở duy nhất.</li>
+                        <li><b>Kế thừa đa cấp:</b> Một lớp được tạo từ một lớp đã được kế thừa trước đó.</li>
+                        <li><b>Kế thừa lai:</b> Kết hợp nhiều kiểu kế thừa.</li>
+                    </ul>
+                </p>
+            </section>
+
+            <section class="main-section" id="Polymorphism">
+                <header>
+                    Đa hình
+                </header>
+                <p>
+                    Đa hình là khả năng của một thông điệp hiển thị dưới nhiều hình thức khác nhau. Trong lập trình C++, đa hình được chia thành hai loại chính:
+                    <ul>
+                        <li><b>Compile-time Polymorphism:</b> Được thực hiện thông qua nạp chồng hàm hoặc toán tử.</li>
+                        <li><b>Run-time Polymorphism:</b> Được thực hiện thông qua ghi đè hàm.</li>
+                    </ul>
+                </p>
+            </section>
+
+            <section class="main-section" id="Abstraction">
+                <header>
+                    Tính trừu tượng
+                </header>
+                <p>
+                    Tính trừu tượng là việc hiển thị thông tin cần thiết và ẩn đi các chi tiết. 
+                    Trong C++, tính trừu tượng được thực hiện qua lớp và header file.
+                </p>
+            </section>
+
+            <section class="main-section" id="Encapsulation">
+                <header>
+                    Đóng gói
+                </header>
+                <p>
+                    Đóng gói là việc kết hợp dữ liệu và hàm hoạt động trên dữ liệu đó trong một đơn vị duy nhất. 
+                    Trong C++, đóng gói được thực hiện thông qua lớp và các bộ sửa đổi quyền truy cập.
+                </p>
+            </section>
+        </main>
+    </div>
+</body>
+</html>

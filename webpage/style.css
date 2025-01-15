@@ -34,7 +34,7 @@ nav#navbar {
 }
 
 nav#navbar header {
-    font-size: 2rem;
+    font-size: 1rem;	
     font-weight: bold;
     margin-bottom: 30px;
     color: #ffd700; /* Golden text for header */
@@ -43,7 +43,7 @@ nav#navbar header {
 
 nav#navbar a {
     display: block;
-    padding: 12px;
+    padding: 10px;
     margin: 15px 0;
     text-decoration: none;
     color: #ffd700; /* Golden text */
@@ -52,6 +52,22 @@ nav#navbar a {
     background-color: #3a3266; /* Deep purple-blue for contrast */
     text-align: center;
     transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav#navbar a.nav-link-home {
+    font-size: 1.2rem; /* Larger font */
+    font-weight: bold; /* Make the text bold */
+    background-color: #ffd700; /* Bright golden background */
+    color: #1f1b3a; /* Dark text for contrast */
+    border: 2px solid #3a3266; /* Border to make it pop */
+    transition: transform 0.2s ease, background-color 0.3s ease; /* Smooth effects */
+}
+
+
+nav#navbar a.nav-link-home:hover {
+    background-color: #ffc700; /* Brighter hover effect */
+    transform: scale(1.1); /* Slight enlargement on hover */
+    color: #2c254d; /* Slightly darker text */
 }
 
 nav#navbar a:hover {
@@ -165,4 +181,49 @@ b {
 
 ::-webkit-scrollbar-thumb:hover {
     background: #ffc700; /* Brighter golden hover effect */
+}
+
+div.landing-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    background-color: #1f1b3a; /* Consistent dark background */
+    color: #ffd700; /* Golden text */
+}
+
+div.landing-page header {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #ffd700; /* Golden text for header */
+    text-shadow: 1px 1px 5px #3a3266; /* Subtle text shadow */
+}
+
+div.landing-page p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin: 20px 0;
+    color: #e0e0e0; /* Soft white text for readability */
+    max-width: 600px;
+}
+
+div.landing-page .cta-button {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #1f1b3a; /* Dark text */
+    background-color: #ffd700; /* Golden background */
+    border: 2px solid #3a3266;
+    border-radius: 10px;
+    padding: 15px 30px;
+    text-decoration: none;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+div.landing-page .cta-button:hover {
+    background-color: #ffc700; /* Brighter gold */
+    transform: scale(1.1); /* Slight enlargement */
+    color: #2c254d; /* Slightly darker text */
 }
